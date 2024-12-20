@@ -1,0 +1,85 @@
+
+
+body{
+    background-color: rgb(238, 238, 238);
+    font-family: Arial, sans-serif;
+    padding: 150px;
+    margin: 0;
+    font-size: 60;
+}
+
+.resume-container{
+    background-color:rgb(197, 162, 229); 
+    margin: 0 auto;
+    display: flex;
+    width: 80% ;
+    border-radius: 10;
+    box-shadow: blueviolet;
+}
+
+.left-section{
+    background-color: rgba(112, 70, 152, 0.541);
+    padding: 20px;
+    color:black;
+    width: 30%;
+    text-align: justify;
+    border-right: 5px slateblue;
+}
+
+.Picture{
+    width: 150px;
+    height: 150px;
+    margin-top: 10%;
+    border-radius: 50%;
+    border: 5px slateblue;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 34px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left: 2px;
+}
+
+h3{
+    font-size: 25px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    color: rgb(255, 245, 245);
+    border-radius: 10px;
+    box-shadow: 0 0 15px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+ul{
+    list-style-type: disc;
+    padding: 10;
+    margin: 5px 0
+}
+
+ul li{
+    margin: 0;
+}
+
+.right-section{
+    padding: 20px;
+    width: 65%;
+    border-top: 3px;
+}
+
+button{
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    box-shadow:  slateblue;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
